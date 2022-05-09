@@ -1,0 +1,8 @@
+﻿#file (MAKE_DIRECTORY ${CMAKE_BINARY_DIR}/resources)
+configure_file ("FONT.ttf" ${CMAKE_BINARY_DIR}/resources COPYONLY)
+configure_file ("cat.png" ${CMAKE_BINARY_DIR}/resources COPYONLY)
+configure_file ("win.png" ${CMAKE_BINARY_DIR}/resources COPYONLY)
+configure_file ("lose.png" ${CMAKE_BINARY_DIR}/resources COPYONLY)
+configure_file ("button.png" ${CMAKE_BINARY_DIR}/resources COPYONLY)
+configure_file ("background.png" ${CMAKE_BINARY_DIR}/resources COPYONLY)
+configure_file ("jump.wav" ${CMAKE_BINARY_DIR}/resources COPYONLY)
